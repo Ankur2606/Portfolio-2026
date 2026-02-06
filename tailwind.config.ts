@@ -2,7 +2,12 @@ import type { Config } from "tailwindcss";
 
 export default {
   darkMode: ["class"],
-  content: ["./pages/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}", "./app/**/*.{ts,tsx}", "./src/**/*.{ts,tsx}"],
+  content: [
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
+  ],
   prefix: "",
   theme: {
     container: {
@@ -57,6 +62,9 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        "mac-glow": "hsl(var(--mac-glow))",
+        "mac-surface": "hsl(var(--mac-surface))",
+        "mac-gold": "hsl(var(--mac-gold))",
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -65,25 +73,46 @@ export default {
       },
       keyframes: {
         "accordion-down": {
-          from: {
-            height: "0",
-          },
-          to: {
-            height: "var(--radix-accordion-content-height)",
-          },
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
-          from: {
-            height: "var(--radix-accordion-content-height)",
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
+        },
+        shimmer: {
+          "0%, 100%": {
+            boxShadow: "0 0 20px -5px hsl(45 100% 60% / 0.2)",
           },
-          to: {
-            height: "0",
+          "50%": {
+            boxShadow: "0 0 40px -5px hsl(45 100% 60% / 0.4)",
           },
+        },
+        float: {
+          "0%, 100%": { transform: "translateY(0px)" },
+          "50%": { transform: "translateY(-10px)" },
+        },
+        "typing-cursor": {
+          "0%, 100%": { borderColor: "hsl(var(--primary))" },
+          "50%": { borderColor: "transparent" },
+        },
+        "fade-up": {
+          "0%": { opacity: "0", transform: "translateY(30px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+        "glow-pulse": {
+          "0%, 100%": { opacity: "0.6" },
+          "50%": { opacity: "1" },
         },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        shimmer: "shimmer 3s ease-in-out infinite",
+        float: "float 6s ease-in-out infinite",
+        "typing-cursor": "typing-cursor 1s step-end infinite",
+        "fade-up": "fade-up 0.6s ease-out forwards",
+        "glow-pulse": "glow-pulse 3s ease-in-out infinite",
       },
     },
   },
