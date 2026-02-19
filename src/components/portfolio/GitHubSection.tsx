@@ -36,7 +36,7 @@ export const GitHubSection = () => {
               loading="lazy"
             />
             <img
-              src={`https://github-stats-extended.vercel.app/api/top-langs?username=${u}&layout=donut&hide_title=true&langs_count=4&theme=highcontrast`}
+              src={`https://github-stats-extended.vercel.app/api/top-langs?username=${u}&layout=compact&langs_count=4&theme=one_dark_pro`}
               alt="Top languages"
               className="w-full rounded-lg"
               loading="lazy"
