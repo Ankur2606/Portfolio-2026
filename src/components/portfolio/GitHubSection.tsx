@@ -35,7 +35,7 @@ export const GitHubSection = () => {
                 alt="GitHub stats"
                 className="w-full h-full object-contain"
                 loading="lazy"
-              />https://github-stats-extended.vercel.app/api?username=Ankur2606&include_all_commits=true
+              />
             </div>
             
             <div className="flex w-full h-full bg-[#111827]/40 border border-white/5 rounded-lg overflow-hidden p-2">
