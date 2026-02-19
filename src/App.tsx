@@ -13,7 +13,10 @@ const queryClient = new QueryClient();
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
-    <LoaderPack name="Bhavya Pratap" theme="dark">
+    <LoaderPack name="Bhavya Pratap" 
+                theme="dark" 
+                sound
+		variant="glitch">
       <TooltipProvider>
         <Toaster />
         <Sonner />
