@@ -31,7 +31,7 @@ export const GitHubSection = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-stretch">
             <div className="flex w-full h-full bg-[#111827]/40 border border-white/5 rounded-lg overflow-hidden p-2">
               <img
-                src={`https://github-stats-extended.vercel.app/api?username=${u}&rank_icon=github&hide_title=true&show_icons=true&include_all_commits=true&theme=transparent&hide_border=true&title_color=3b82f6&text_color=94a3b8&icon_color=a78bfa`}
+                src={`https://github-stats-extended.vercel.app/api?username=${u}&rank_icon=github&show_icons=true&include_all_commits=true&theme=transparent&hide_border=true&title_color=3b82f6&text_color=94a3b8&icon_color=a78bfa`}
                 alt="GitHub stats"
                 className="w-full h-full object-contain"
                 loading="lazy"
