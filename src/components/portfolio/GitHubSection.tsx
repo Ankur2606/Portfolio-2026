@@ -29,20 +29,20 @@ export const GitHubSection = () => {
 
           {/* GitHub stats */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-stretch">
-            <div className="flex w-full h-full bg-[#111827]/40 border border-white/5 rounded-lg overflow-hidden">
+            <div className="flex w-full h-full bg-[#111827]/40 border border-white/5 rounded-lg overflow-hidden p-2">
               <img
-                src={`https://github-stats-extended.vercel.app/api?username=${u}&rank_icon=github&hide_title=true&show_icons=true&include_all_commits=truetheme=transparent&hide_border=true&title_color=3b82f6&text_color=94a3b8&icon_color=a78bfa`}
+                src={`https://github-stats-extended.vercel.app/api?username=${u}&rank_icon=github&hide_title=true&show_icons=true&include_all_commits=true&theme=transparent&hide_border=true&title_color=3b82f6&text_color=94a3b8&icon_color=a78bfa`}
                 alt="GitHub stats"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
                 loading="lazy"
               />
             </div>
             
-            <div className="flex w-full h-full bg-[#111827]/40 border border-white/5 rounded-lg overflow-hidden">
+            <div className="flex w-full h-full bg-[#111827]/40 border border-white/5 rounded-lg overflow-hidden p-2">
               <img
                 src={`https://github-stats-extended.vercel.app/api/top-langs?username=${u}&layout=donut&langs_count=4&theme=transparent&hide_border=true&title_color=3b82f6&text_color=94a3b8&height=195`}
                 alt="Top languages"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
                 loading="lazy"
               />
             </div>
