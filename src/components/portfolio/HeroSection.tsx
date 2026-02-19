@@ -73,6 +73,7 @@ export const HeroSection = () => {
 
         {/* Explore prompt */}
         <motion.button
+          type="button"
           onClick={scrollToAbout}
           className="text-sm text-muted-foreground/60 flex items-center gap-1 justify-center pt-8 cursor-pointer hover:text-muted-foreground/80 transition-colors"
           animate={{ y: [0, 6, 0] }}
