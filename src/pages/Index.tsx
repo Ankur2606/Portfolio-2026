@@ -28,12 +28,14 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-mesh">
+    <div className="min-h-screen bg-mesh animate-page-reveal">
       {/* Hero — full viewport */}
-      <HeroSection />
+      <div className="animate-fade-up" style={{ animationDelay: '0.2s' }}>
+        <HeroSection />
+      </div>
 
       {/* Sections */}
-      <main className="max-w-5xl mx-auto px-4 sm:px-6 space-y-12 sm:space-y-16 pb-32">
+      <main className="max-w-5xl mx-auto px-4 sm:px-6 space-y-12 sm:space-y-16 pb-32 animate-fade-up" style={{ animationDelay: '0.5s' }}>
         <AboutSection />
         <ExperienceSection />
         <ProjectsSection />
@@ -46,7 +48,9 @@ const Index = () => {
       </main>
 
       {/* macOS Dock */}
-      <Dock />
+      <div className="animate-dock-rise" style={{ animationDelay: '0.8s' }}>
+        <Dock />
+      </div>
     </div>
   );
 };
