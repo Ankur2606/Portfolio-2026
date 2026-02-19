@@ -28,19 +28,24 @@ export const GitHubSection = () => {
           </div>
 
           {/* GitHub stats */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <img
-              src={`https://github-stats-extended.vercel.app/api?username=Ankur2606&rank_icon=github&include_all_commits=true&theme=nord`}
-              alt="GitHub stats"
-              className="w-full rounded-lg"
-              loading="lazy"
-            />
-            <img
-              src={`https://github-stats-extended.vercel.app/api/top-langs?username=${u}&layout=compact&langs_count=4&theme=one_dark_pro`}
-              alt="Top languages"
-              className="w-full rounded-lg"
-              loading="lazy"
-            />
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-stretch">
+            <div className="flex w-full h-full bg-[#111827]/40 border border-white/5 rounded-lg overflow-hidden">
+              <img
+                src={`https://github-stats-extended.vercel.app/api?username=${u}&rank_icon=github&hide_title=true&show_icons=true&include_all_commits=truetheme=transparent&hide_border=true&title_color=3b82f6&text_color=94a3b8&icon_color=a78bfa`}
+                alt="GitHub stats"
+                className="w-full h-full object-cover"
+                loading="lazy"
+              />
+            </div>
+            
+            <div className="flex w-full h-full bg-[#111827]/40 border border-white/5 rounded-lg overflow-hidden">
+              <img
+                src={`https://github-stats-extended.vercel.app/api/top-langs?username=${u}&layout=donut&langs_count=4&theme=transparent&hide_border=true&title_color=3b82f6&text_color=94a3b8&height=195`}
+                alt="Top languages"
+                className="w-full h-full object-cover"
+                loading="lazy"
+              />
+            </div>
           </div>
 
           {/* Profile link */}
