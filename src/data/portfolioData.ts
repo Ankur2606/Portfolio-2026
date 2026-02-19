@@ -1,48 +1,48 @@
 export const personalInfo = {
   name: "Bhavya Pratap Singh Tomar",
   greeting: "Hey, I'm Bhavya 👋",
-  titles: ["AI Engineer", "Hackathon Champion", "Full-Stack Builder"],
+  titles: ["Applied AI Engineer", "3+ Hackathon Winner", "Full-Stack Builder"],
   email: "bhavyapsingh28@gmail.com",
-  phone: "+91-8305595498",
+  phone: "+91-7974559903",
   github: "https://github.com/Ankur2606",
   githubUsername: "Ankur2606",
   linkedin: "https://linkedin.com/in/bhavya-pratap-singh-tomar",
-  education: "B.Tech CSE (AI & Robotics) · VIT Bhopal University · CGPA 8.37 · 2022–2026",
-  bio: "I'm an AI engineer who thrives at the intersection of machine learning and production-grade software. With 9+ hackathon wins and experience building systems that handle millions of users, I specialize in turning cutting-edge AI research into real-world impact. From real-time trading platforms to NLP pipelines for food security — I build things that matter.",
+  education: "B.Tech AIML · MITS Gwalior · CGPA 7.7 · 2022–2026",
+  bio: "I am an Applied AI engineer who bridges machine learning research and production backend systems. With a National Rank 23 in the Amazon ML Challenge and hands on experience scaling infrastructure for 10,000 concurrent users I specialize in applied AI. I build agentic workflows using LangGraph and optimize LLM pipelines for domains ranging from food security to automated code analysis.",
 };
 
 export const stats = [
-  { label: "Hackathon Wins", value: "9+" },
+  { label: "Hackathon Wins", value: "3+" },
   { label: "Users Impacted", value: "2M+" },
-  { label: "Tokens Processed", value: "200K+" },
+  { label: "AI Projects Shipped", value: "8+" },
   { label: "LeetCode Problems", value: "200+" },
 ];
 
 export const experience = [
   {
-    company: "Seequenze Technologies",
-    role: "Software Development Engineer Intern",
-    duration: "Dec 2024 — Feb 2025",
+    company: "Seequenze Technologies [cite: 3]",
+    role: "AI Development Intern [cite: 3]",
+    duration: "Nov 2024 Jan 2025 [cite: 4]",
     bullets: [
-      "Engineered a real-time betting & trading platform handling **10K+ concurrent users** using WebSocket and Redis pub/sub architecture",
-      "Built fault-tolerant infrastructure that **reduced trade failures by 30%** through robust error handling and retry mechanisms",
-      "Implemented real-time odds calculation engine with sub-second latency for live trading scenarios",
+      "Developed a robust Fast API backend supporting 10K+ concurrent users for LLM-based code refactoring. [cite: 7]",
+      "Engineered an advanced LLM-based code refactoring system handling 200K+ tokens, utilizing custom prompt engineering and AST-level analysis to bypass context window limits while preserving context integrity. [cite: 5]",
+      "Developed an intelligent code transformation pipeline using advanced prompting techniques to convert static layouts into responsive designs and inline CSS to Tailwind CSS, serving 1,000+ business clients. [cite: 6]"
     ],
-    metrics: ["10K+ concurrent users", "30% fewer failures"],
+    metrics: ["10K+ concurrent users [cite: 7]", "200K+ tokens [cite: 5]"]
   },
   {
-    company: "FoodNEST — CSIR-CFTRI",
-    role: "AI Research Intern",
-    duration: "May 2024 — Jul 2024",
+    company: "FoodNEST(S) [cite: 8]",
+    role: "Artificial Intelligence Intern [cite: 8]",
+    duration: "Sept 2024 Nov 2024 [cite: 9]",
     bullets: [
-      "Developed NLP & ML models for food security analytics impacting **2M+ stakeholders** across agricultural supply chains",
-      "Processed **200K+ tokens** for large-scale data analysis using transformer-based models",
-      "Achieved **25% uplift** in crop prediction accuracy through ensemble learning techniques",
+      "Developed and deployed an in-house multilingual, multimodal AI chatbot using Watsonx Granite models and FastAPI, automating order processing for 2M+ stakeholders and reducing manual overhead by 30%. [cite: 10]",
+      "Devised a multilingual architecture across 22+ Indic languages, improving intent accuracy and customer satisfaction. [cite: 11]",
+      "Architected distributed web/map/video scrapers with Python, Docker, and EC2, ensuring 98% uptime and secure hybrid-cloud data ingestion for analytics pipelines. [cite: 12]",
+      "Built a scalable RAG application using LlamaIndex and prompt chaining, integrating Watsonx.ai APIs for governance-compliant model monitoring and supporting 500K+ clients. [cite: 13]"
     ],
-    metrics: ["2M+ stakeholders", "25% accuracy uplift"],
-  },
+    metrics: ["2M+ stakeholders [cite: 10]", "30% overhead reduction [cite: 10]"]
+  }
 ];
-
 export const projects = [
   {
     name: "CQ Lite",
@@ -61,8 +61,7 @@ export const projects = [
   {
     name: "AI Voice Assistant",
     tagline: "Sub-500ms Latency Voice Pipeline",
-    description:
-      "A low-latency, real-time AI voice assistant with end-to-end streaming pipeline — from speech recognition to LLM response to voice synthesis, all under 500ms.",
+    description: "A low-latency, real-time AI voice assistant with end-to-end streaming pipeline — from speech recognition to LLM response to voice synthesis, all under 500ms.",
     tech: ["Deepgram STT", "Groq LLM", "Smallest.ai TTS", "WebSocket", "Python"],
     metric: "<500ms latency",
     details: [
@@ -90,30 +89,30 @@ export const projects = [
 
 export const achievements = [
   {
-    title: "Amazon ML Challenge",
+    title: "Amazon ML Challenge 2025",
     rank: "Top 23",
-    total: "83,000+ teams",
+    total: "83,000+ participants",
     org: "Amazon",
     highlight: true,
   },
   {
-    title: "Intel OneAPI Hackathon",
+    title: "Intel AI Hackathon 2025",
     rank: "National Winner",
-    total: "",
+    total: "4000+ teams",
     org: "Intel",
     highlight: true,
   },
   {
-    title: "SIH 2024",
-    rank: "National Finalist",
-    total: "Top 5",
-    org: "Govt. of India",
+    title: "Hackodisha 5.0",
+    rank: "National Winner",
+    total: "6000+ participants",
+    org: "Webwiz, NIT Rourkela",
     highlight: true,
   },
   {
     title: "Google Cloud GenAI",
     rank: "Top 7",
-    total: "",
+    total: "90000+ participants",
     org: "Google Cloud",
     highlight: false,
   },
