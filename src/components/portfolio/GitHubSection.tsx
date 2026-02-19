@@ -30,13 +30,13 @@ export const GitHubSection = () => {
           {/* GitHub stats */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <img
-              src={`https://github-readme-stats.vercel.app/api?username=${u}&show_icons=true&theme=transparent&hide_border=true&title_color=3b82f6&text_color=94a3b8&icon_color=a78bfa&bg_color=00000000`}
+              src={`https://github-readme-stats.vercel.app/api?username=${u}&show_icons=true&theme=transparent&hide_border=true&title_color=3b82f6&text_color=94a3b8&icon_color=a78bfa`}
               alt="GitHub stats"
               className="w-full rounded-lg"
               loading="lazy"
             />
             <img
-              src={`https://github-readme-stats.vercel.app/api/top-langs/?username=${u}&layout=compact&theme=transparent&hide_border=true&title_color=3b82f6&text_color=94a3b8&bg_color=00000000`}
+              src={`https://github-readme-stats.vercel.app/api/top-langs?username=${u}&layout=compact&theme=transparent&hide_border=true&title_color=3b82f6&text_color=94a3b8`}
               alt="Top languages"
               className="w-full rounded-lg"
               loading="lazy"
