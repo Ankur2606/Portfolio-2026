@@ -30,7 +30,7 @@ export const GitHubSection = () => {
           {/* GitHub stats */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <img
-              src={`https://github-stats-extended.vercel.app/api?username=${u}&rank_icon=github&hide_title=true&include_all_commits=true&theme=chartreuse-dark`}
+              src={`https://github-stats-extended.vercel.app/api?username=Ankur2606&rank_icon=github&include_all_commits=true&theme=nord`}
               alt="GitHub stats"
               className="w-full rounded-lg"
               loading="lazy"
