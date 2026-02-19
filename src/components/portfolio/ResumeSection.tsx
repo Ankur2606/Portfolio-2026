@@ -4,10 +4,10 @@ import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { Download, FileText, GraduationCap, Briefcase, Code, Trophy } from "lucide-react";
 
 const highlights = [
-  { icon: GraduationCap, text: "B.Tech CSE (AI & Robotics) — VIT Bhopal — 8.37 CGPA" },
-  { icon: Briefcase, text: "2 production internships — Seequenze & CSIR-CFTRI" },
+  { icon: GraduationCap, text: "B.Tech AIML — MITS Gwalior — 7.7 CGPA" },
+  { icon: Briefcase, text: "2 production internships — Seequenze & FoodNEST(S)" },
   { icon: Code, text: "3 major projects — AI code review, voice assistant, Web3" },
-  { icon: Trophy, text: "9+ national hackathon wins including Amazon, Intel, Google" },
+  { icon: Trophy, text: "3+ national hackathon wins including Amazon, Intel, Google" },
 ];
 
 export const ResumeSection = () => {
@@ -26,7 +26,7 @@ export const ResumeSection = () => {
             <FileText className="w-8 h-8 text-primary" />
             <div>
               <h3 className="font-semibold text-foreground">Bhavya Pratap Singh Tomar</h3>
-              <p className="text-sm text-muted-foreground">AI Engineer & Full-Stack Developer</p>
+              <p className="text-sm text-muted-foreground">Applied AI Engineer & Full-Stack Developer</p>
             </div>
           </div>
 
