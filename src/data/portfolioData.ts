@@ -7,7 +7,7 @@ export const personalInfo = {
   github: "https://github.com/Ankur2606",
   githubUsername: "Ankur2606",
   linkedin: "https://linkedin.com/in/bhavya-pratap-singh-tomar",
-  education: "B.Tech AIML · MITS Gwalior · CGPA 7.7 · 2022–2026",
+  education: "B.Tech in AIML · MITS Gwalior · CGPA 7.7 · 2022–2026",
   bio: "I am an Applied AI engineer who bridges machine learning research and production backend systems. With a National Rank 23 in the Amazon ML Challenge and hands on experience scaling infrastructure for 10,000 concurrent users I specialize in applied AI. I build agentic workflows using LangGraph and optimize LLM pipelines for domains ranging from food security to automated code analysis.",
 };
 
@@ -20,27 +20,27 @@ export const stats = [
 
 export const experience = [
   {
-    company: "Seequenze Technologies [cite: 3]",
-    role: "AI Development Intern [cite: 3]",
-    duration: "Nov 2024 Jan 2025 [cite: 4]",
+    company: "Seequenze Technologies",
+    role: "AI Development Intern",
+    duration: "Nov 2024 Jan 2025",
     bullets: [
-      "Developed a robust Fast API backend supporting 10K+ concurrent users for LLM-based code refactoring. [cite: 7]",
-      "Engineered an advanced LLM-based code refactoring system handling 200K+ tokens, utilizing custom prompt engineering and AST-level analysis to bypass context window limits while preserving context integrity. [cite: 5]",
-      "Developed an intelligent code transformation pipeline using advanced prompting techniques to convert static layouts into responsive designs and inline CSS to Tailwind CSS, serving 1,000+ business clients. [cite: 6]"
+      "Developed a robust Fast API backend supporting 10K+ concurrent users for LLM-based code refactoring.",
+      "Engineered an advanced LLM-based code refactoring system handling 200K+ tokens, utilizing custom prompt engineering and AST-level analysis to bypass context window limits while preserving context integrity.",
+      "Developed an intelligent code transformation pipeline using advanced prompting techniques to convert static layouts into responsive designs and inline CSS to Tailwind CSS, serving 1,000+ business clients."
     ],
-    metrics: ["10K+ concurrent users [cite: 7]", "200K+ tokens [cite: 5]"]
+    metrics: ["10K+ concurrent users", "200K+ tokens"]
   },
   {
-    company: "FoodNEST(S) [cite: 8]",
-    role: "Artificial Intelligence Intern [cite: 8]",
-    duration: "Sept 2024 Nov 2024 [cite: 9]",
+    company: "FoodNEST(S)",
+    role: "Artificial Intelligence Intern",
+    duration: "Sept 2024 Nov 2024 ",
     bullets: [
-      "Developed and deployed an in-house multilingual, multimodal AI chatbot using Watsonx Granite models and FastAPI, automating order processing for 2M+ stakeholders and reducing manual overhead by 30%. [cite: 10]",
-      "Devised a multilingual architecture across 22+ Indic languages, improving intent accuracy and customer satisfaction. [cite: 11]",
-      "Architected distributed web/map/video scrapers with Python, Docker, and EC2, ensuring 98% uptime and secure hybrid-cloud data ingestion for analytics pipelines. [cite: 12]",
-      "Built a scalable RAG application using LlamaIndex and prompt chaining, integrating Watsonx.ai APIs for governance-compliant model monitoring and supporting 500K+ clients. [cite: 13]"
+      "Developed and deployed an in-house multilingual, multimodal AI chatbot using Watsonx Granite models and FastAPI, automating order processing for 2M+ stakeholders and reducing manual overhead by 30%. ",
+      "Devised a multilingual architecture across 22+ Indic languages, improving intent accuracy and customer satisfaction. ",
+      "Architected distributed web/map/video scrapers with Python, Docker, and EC2, ensuring 98% uptime and secure hybrid-cloud data ingestion for analytics pipelines. ",
+      "Built a scalable RAG application using LlamaIndex and prompt chaining, integrating Watsonx.ai APIs for governance-compliant model monitoring and supporting 500K+ clients."
     ],
-    metrics: ["2M+ stakeholders [cite: 10]", "30% overhead reduction [cite: 10]"]
+    metrics: ["2M+ stakeholders ", "30% overhead reduction"]
   }
 ];
 export const projects = [
@@ -48,7 +48,7 @@ export const projects = [
     name: "CQ Lite",
     tagline: "AI-Powered Multi-Agent Code Review",
     description:
-      "A multi-agent code review system that autonomously analyzes PRs, detects bugs, security vulnerabilities, and code smells — then generates actionable improvement suggestions.",
+      "A multi-agent code review system that autonomously analyzes PRs, detects bugs, security vulnerabilities, and code smells then generates actionable improvement suggestions.",
     tech: ["CrewAI", "LangChain", "Gemini", "FastAPI", "Python"],
     metric: "40% faster reviews",
     details: [
@@ -61,7 +61,7 @@ export const projects = [
   {
     name: "AI Voice Assistant",
     tagline: "Sub-500ms Latency Voice Pipeline",
-    description: "A low-latency, real-time AI voice assistant with end-to-end streaming pipeline — from speech recognition to LLM response to voice synthesis, all under 500ms.",
+    description: "A low-latency, real-time AI voice assistant with end-to-end streaming pipeline that is from speech recognition to LLM response to voice synthesis, all under 500ms.",
     tech: ["Deepgram STT", "Groq LLM", "Smallest.ai TTS", "WebSocket", "Python"],
     metric: "<500ms latency",
     details: [
@@ -75,7 +75,7 @@ export const projects = [
     name: "NoPing",
     tagline: "Unified Productivity + Blockchain Platform",
     description:
-      "A comprehensive productivity platform with integrated Web3 rewards — combining task management, collaboration tools, and gamified blockchain incentives.",
+      "A comprehensive productivity platform with integrated Web3 rewards combining task management, collaboration tools, and gamified blockchain incentives.",
     tech: ["React", "Node.js", "Solidity", "Ethereum", "Hardhat"],
     metric: "Web3 gamification",
     details: [
