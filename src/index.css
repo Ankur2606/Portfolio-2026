@@ -118,6 +118,11 @@
   .scrollbar-hide::-webkit-scrollbar {
     display: none;
   }
+
+  /* Scroll margin for smooth navigation to sections */
+  #about, #experience, #projects, #achievements, #skills, #github, #resume, #automation, #contact {
+    scroll-margin-top: 2rem;
+  }
 }
 
 /* Page reveal animations after LoaderPack */

@@ -7,6 +7,10 @@ import bhavyaPhoto from "@/assets/bhavya-photo.jpg";
 export const HeroSection = () => {
   const typedText = useTypingEffect(personalInfo.titles, 80, 40, 2200);
 
+  const scrollToAbout = () => {
+    document.getElementById("about")?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <section
       id="hero"
@@ -68,14 +72,17 @@ export const HeroSection = () => {
         </div>
 
         {/* Explore prompt */}
-        <motion.p
-          className="text-sm text-muted-foreground/60 flex items-center gap-1 justify-center pt-8"
+        <motion.button
+          type="button"
+          onClick={scrollToAbout}
+          className="text-sm text-muted-foreground/60 flex items-center gap-1 justify-center pt-8 cursor-pointer hover:text-muted-foreground/80 transition-colors"
           animate={{ y: [0, 6, 0] }}
           transition={{ duration: 2, repeat: Infinity }}
+          aria-label="Scroll to About section"
         >
           Click the dock to explore
           <ChevronDown className="w-4 h-4" />
-        </motion.p>
+        </motion.button>
       </motion.div>
     </section>
   );
