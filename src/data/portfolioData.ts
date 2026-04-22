@@ -2,7 +2,7 @@ export const personalInfo = {
   name: "Bhavya Pratap Singh Tomar",
   greeting: "Hey, I'm Bhavya 👋",
   titles: ["Applied AI Engineer", "3+ Hackathon Winner", "Full-Stack Builder"],
-  email: "bhavyapsingh28@gmail.com",
+  email: "bhavyapratapsinghtomar@gmail.com",
   phone: "+91-7974559903",
   github: "https://github.com/Ankur2606",
   githubUsername: "Ankur2606",
@@ -62,7 +62,7 @@ export const projects = [
     name: "AI Voice Assistant",
     tagline: "Sub-500ms Latency Voice Pipeline",
     description: "A low-latency, real-time AI voice assistant with end-to-end streaming pipeline that is from speech recognition to LLM response to voice synthesis, all under 500ms.",
-    tech: ["Deepgram STT", "Groq LLM", "Smallest.ai TTS", "WebSocket", "Python"],
+    tech: ["Deepgram STT", "Groq LLM", "Whisper Fast TTS", "WebSocket", "Python"],
     metric: "<500ms latency",
     details: [
       "End-to-end streaming pipeline with parallel processing stages",
